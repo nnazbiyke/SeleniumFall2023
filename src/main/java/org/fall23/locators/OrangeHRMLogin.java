@@ -1,5 +1,6 @@
-package org.fall23;
+package org.fall23.locators;
 
+import org.fall23.BaseTest;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,7 @@ import org.testng.annotations.Test;
 
 
 
-public class OrangeHRMLogin extends BaseTest{
+public class OrangeHRMLogin extends BaseTest {
 
 
     @Test()

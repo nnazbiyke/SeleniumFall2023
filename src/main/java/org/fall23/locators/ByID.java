@@ -16,7 +16,7 @@ public class ByID extends BaseTest {
         findById("permanentAddress").sendKeys("WallStreet 555");
         findById("permanentAddress").sendKeys("Sovet 123");
 
-        scrollDownWebPage();
+        //scrollDownWebPage();
         findById("submit").click();
 
     }

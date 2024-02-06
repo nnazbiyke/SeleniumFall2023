@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import static org.fall23.WebElementManager.openTheSite;
+import static org.fall23.WebElementManager.scrollDownWebPage;
 
 public class ByClassNameTestDemo extends BaseTest {
 
@@ -23,5 +24,7 @@ public class ByClassNameTestDemo extends BaseTest {
         emailInput.sendKeys("John@gmail.com");
         currentAddressInput.sendKeys("WallStreet 555");
         permanentAddressInput.sendKeys("Sovet 123");
+        scrollDownWebPage(0,500);
+        submitBtn.click();
     }
 }

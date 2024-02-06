@@ -21,9 +21,9 @@ public class WebElementManager extends BaseTest{
         return driver.findElement(By.partialLinkText(partialText));
     }
 
-    public static void scrollDownWebPage(){
+    public static void scrollDownWebPage(int deltaX, int deltaY){
         actions = new Actions(driver);
-        actions.scrollByAmount(0, 500).perform();
+        actions.scrollByAmount(deltaX, deltaY).perform();
     }
     public static WebElement findByXpath(String xpath){
         return driver.findElement(By.xpath(xpath));

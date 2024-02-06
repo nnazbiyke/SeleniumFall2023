@@ -1,11 +1,6 @@
 package org.fall23;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.*;
 
 
 import java.time.Duration;
@@ -31,12 +26,5 @@ public class WebDriverManager {
         driver.close();
         driver.quit();
     }
-
-//    public static void scrollDownThePage(WebElement element){
-//        select = new Select(element);
-//        select.selectByVisibleText("30");
-//    }
-
-    // create method that scroll down
 
 }
